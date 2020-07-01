@@ -1,0 +1,214 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/* top-banner section starts*/
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.name {
+  font-size: 60px;
+  font-weight: 1000;
+  color: #ec4a8e;
+}
+p {
+  color: dimgray;
+  padding-bottom: 30px;
+}
+section {
+  height: 1020px;
+}
+.half-width {
+  float: left;
+  width: 35%;
+  margin-top: 5%;
+}
+.peter {
+  width: 100%;
+  padding-top: 20px;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-image: linear-gradient(90deg, #eb5895, #c21a60);
+}
+.top-banner {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.first-part {
+  margin-left: 15%;
+  margin-top: 15%;
+}
+/* top-banner section ends*/
+
+/* biography section starts*/
+.biography {
+  background-image: url("images/biography-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+}
+
+.biography-text {
+  margin-top: 30%;
+  margin-left: 10%;
+}
+.second-part {
+  margin-left: 15%;
+}
+.dream-img {
+  width: 80%;
+}
+/* biography section ends*/
+
+/* work section starts*/
+.work-part {
+  background-image: url("images/latest-work-bg.png");
+  background-size: 100%;
+  height: 700px;
+}
+
+.work-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.work-width {
+  width: 28%;
+  float: left;
+  margin: 15px;
+}
+
+.work-width img {
+  width: 100%;
+}
+.second-position {
+  margin-left: 12%;
+}
+/* work section ends*/
+
+/*Extra work from previous lesson starts*/
+.experience-header {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  height: 50%;
+  background-color: white;
+  width: 40%;
+  float: left;
+  margin-left: 4%;
+  padding-left: 2%;
+}
+
+.experience-area {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+}
+
+#fullstack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#babyweb {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, aqua);
+  border-image-slice: 1;
+}
+
+.orange-highlight {
+  color: cyan;
+}
+
+.single-experience:hover {
+  background-color: lightcoral;
+  transition-duration: 0.5s;
+  padding: 60px;
+}
+/*Extra work from previous lesson ends*/
+
+/*What-Client-are starts*/
+.What-Client-are {
+  background-image: url("images/footer-bg.png");
+  background-size: 100%;
+}
+
+.quotes {
+  text-align: center;
+}
+
+#ceo-name {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#ceo-rank {
+  font-size: 15px;
+}
+
+#ceo {
+  line-height: 0.7;
+  text-align: center;
+}
+
+#says {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.msg {
+  color: white;
+  background-image: linear-gradient(180deg, #eb5895, #fc2a58);
+  text-align: center;
+  padding: 30px 10px 30px 10px;
+  margin: 100px 400px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px gray;
+}
+.msg:hover {
+  background-image: linear-gradient(90deg, #eb5895, #fc2a58);
+  transition-duration: 0.5s;
+  padding: 60px 40px;
+}
+#msg-text {
+  color: white;
+}
+
+#mail {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.c-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: -50px;
+}
+/*What-Client-are starts*/
+
+/*footer starts*/
+.footer {
+  text-align: center;
+}
+/*footer ends*/
